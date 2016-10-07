@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  4 OCT 2016 00:06
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 OCT 2016 23:25
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -865,11 +865,11 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 65.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<tarea_1.png, id=1, 558.085pt x 301.125pt>
+<tarea_1.png, id=1, 1900.09875pt x 873.2625pt>
 File: tarea_1.png Graphic file (type png)
  <use tarea_1.png>
 Package pdftex.def Info: tarea_1.png used on input line 70.
-(pdftex.def)             Requested size: 379.68864pt x 204.85974pt.
+(pdftex.def)             Requested size: 371.43105pt x 170.71652pt.
 
 <tarea_1-a.png, id=2, 1290.8225pt x 626.34pt>
 File: tarea_1-a.png Graphic file (type png)
@@ -1315,7 +1315,7 @@ l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
 /texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
 Output written on JorgeContreras-201573547-6_JuanPJorquera-201573533-6.pdf (8 p
-ages, 627518 bytes).
+ages, 696822 bytes).
 PDF statistics:
  79 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream
