@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 OCT 2016 18:29
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 OCT 2016 20:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1061,7 +1061,7 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.160 \includegraphics[height=7cm]{tarea_4-a.png}
-                                                 }
+                                                 
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1071,15 +1071,6 @@ LaTeX Font Info:    Try loading font information for T1+aett on input line 160.
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-! Extra }, or forgotten \endgroup.
-l.160 \includegraphics[height=7cm]{tarea_4-a.png}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
 
 LaTeX Warning: File `tarea_4-b.png' not found on input line 162.
 
@@ -1091,19 +1082,10 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.162 \includegraphics[height=8cm]{tarea_4-b.png}
-                                                 }
+                                                 
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-! Extra }, or forgotten \endgroup.
-l.162 \includegraphics[height=8cm]{tarea_4-b.png}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
 File: Escudo.png Graphic file (type png)
 <use Escudo.png>
@@ -1162,19 +1144,10 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.168 ...ludegraphics[height=8.5cm]{tarea_5-a.png}
-                                                  }
+                                                  
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-! Extra }, or forgotten \endgroup.
-l.168 ...udegraphics[height=8.5cm]{tarea_5-a.png}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
 File: Escudo.png Graphic file (type png)
 <use Escudo.png>
@@ -1218,19 +1191,10 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.172 ...ludegraphics[height=7.2cm]{tarea_5-b.png}
-                                                  }
+                                                  
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
-
-! Extra }, or forgotten \endgroup.
-l.172 ...udegraphics[height=7.2cm]{tarea_5-b.png}}
-                                                  
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
 
 File: Escudo.png Graphic file (type png)
 <use Escudo.png>
