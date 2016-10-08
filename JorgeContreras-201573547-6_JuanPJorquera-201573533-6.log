@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 OCT 2016 23:25
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 OCT 2016 18:12
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -869,32 +869,19 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: tarea_1.png Graphic file (type png)
  <use tarea_1.png>
 Package pdftex.def Info: tarea_1.png used on input line 70.
-(pdftex.def)             Requested size: 371.43105pt x 170.71652pt.
+(pdftex.def)             Requested size: 309.5307pt x 142.26378pt.
 
-<tarea_1-a.png, id=2, 1290.8225pt x 626.34pt>
-File: tarea_1-a.png Graphic file (type png)
- <use tarea_1-a.png>
-Package pdftex.def Info: tarea_1-a.png used on input line 74.
-(pdftex.def)             Requested size: 351.81602pt x 170.71652pt.
-
-<tarea_1-a-2.png, id=3, 1290.8225pt x 621.32124pt>
-File: tarea_1-a-2.png Graphic file (type png)
- <use tarea_1-a-2.png>
-Package pdftex.def Info: tarea_1-a-2.png used on input line 77.
-(pdftex.def)             Requested size: 354.672pt x 170.71652pt.
-
-<tarea_1-a-3.png, id=4, 1290.8225pt x 598.235pt>
-<Escudo.png, id=5, 213.1965pt x 156.585pt>
+<Escudo.png, id=2, 213.1965pt x 156.585pt>
 File: Escudo.png Graphic file (type png)
  <use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 80.
+Package pdftex.def Info: Escudo.png used on input line 90.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.80 \includegraphics[height=6cm]{tarea_1-a-3.png}
-                                                  
+l.90 \newpage
+             
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -908,93 +895,91 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.80 \includegraphics[height=6cm]{tarea_1-a-3.png}
-                                                  
+l.90 \newpage
+             
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
- <./Escudo.png> <./tarea_1.png (PNG copy)> <./tarea_1-a.png>]
+ <./Escudo.png> <./tarea_1.png (PNG copy)>]
+<tarea_1-a.png, id=12, 1290.8225pt x 626.34pt>
+File: tarea_1-a.png Graphic file (type png)
+ <use tarea_1-a.png>
+Package pdftex.def Info: tarea_1-a.png used on input line 94.
+(pdftex.def)             Requested size: 293.18002pt x 142.26378pt.
+
+<tarea_1-a-2.png, id=13, 1290.8225pt x 621.32124pt>
+File: tarea_1-a-2.png Graphic file (type png)
+ <use tarea_1-a-2.png>
+Package pdftex.def Info: tarea_1-a-2.png used on input line 98.
+(pdftex.def)             Requested size: 295.54358pt x 142.26378pt.
+
+<tarea_1-a-3.png, id=14, 1290.8225pt x 598.235pt>
 File: tarea_1-a-3.png Graphic file (type png)
  <use tarea_1-a-3.png>
-Package pdftex.def Info: tarea_1-a-3.png used on input line 80.
-(pdftex.def)             Requested size: 368.36095pt x 170.71652pt.
+Package pdftex.def Info: tarea_1-a-3.png used on input line 102.
+(pdftex.def)             Requested size: 306.96745pt x 142.26378pt.
+File: Escudo.png Graphic file (type png)
 
-<tarea_1-a-4.png, id=15, 1290.8225pt x 598.235pt>
+<use Escudo.png>
+Package pdftex.def Info: Escudo.png used on input line 103.
+(pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
+
+! Undefined control sequence.
+<recently read> \lab 
+                     
+l.103 \newpage
+              
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.103 \newpage
+              
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[2 <./tarea_1-a.png> <./tarea_1-a-2.png> <./tarea_1-a-3.png>]
+<tarea_1-a-4.png, id=18, 1290.8225pt x 598.235pt>
 File: tarea_1-a-4.png Graphic file (type png)
  <use tarea_1-a-4.png>
-Package pdftex.def Info: tarea_1-a-4.png used on input line 83.
-(pdftex.def)             Requested size: 368.36095pt x 170.71652pt.
+Package pdftex.def Info: tarea_1-a-4.png used on input line 106.
+(pdftex.def)             Requested size: 306.96745pt x 142.26378pt.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<tarea_1-c.png, id=16, 1290.8225pt x 598.235pt>
+<tarea_1-c.png, id=19, 1290.8225pt x 598.235pt>
 File: tarea_1-c.png Graphic file (type png)
  <use tarea_1-c.png>
-Package pdftex.def Info: tarea_1-c.png used on input line 104.
+Package pdftex.def Info: tarea_1-c.png used on input line 121.
 (pdftex.def)             Requested size: 263.99004pt x 122.34692pt.
 
-<tarea_1-c2.png, id=17, 1290.8225pt x 598.235pt>
-File: Escudo.png Graphic file (type png)
- <use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 106.
-(pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
-
-! Undefined control sequence.
-<recently read> \lab 
-                     
-l.106 ...udegraphics[height=4.3cm]{tarea_1-c2.png}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.106 ...udegraphics[height=4.3cm]{tarea_1-c2.png}
-                                                  
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[2 <./tarea_1-a-2.png> <./tarea_1-a-3.png> <./tarea_1-a-4.png>]
+<tarea_1-c2.png, id=20, 1290.8225pt x 598.235pt>
 File: tarea_1-c2.png Graphic file (type png)
-
-<use tarea_1-c2.png>
-Package pdftex.def Info: tarea_1-c2.png used on input line 106.
-(pdftex.def)             Requested size: 263.99004pt x 122.34692pt.
- <tarea_1-c3.png, id=21, 1290.8225pt x 598.235pt>
-File: tarea_1-c3.png Graphic file (type png)
-
-<use tarea_1-c3.png>
-Package pdftex.def Info: tarea_1-c3.png used on input line 108.
-(pdftex.def)             Requested size: 263.99004pt x 122.34692pt.
- <tarea1-c4.png, id=22, 1290.8225pt x 598.235pt>
-File: tarea1-c4.png Graphic file (type png)
-
-<use tarea1-c4.png>
-Package pdftex.def Info: tarea1-c4.png used on input line 110.
+ <use tarea_1-c2.png>
+Package pdftex.def Info: tarea_1-c2.png used on input line 125.
 (pdftex.def)             Requested size: 263.99004pt x 122.34692pt.
 File: Escudo.png Graphic file (type png)
- <use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 112.
+
+<use Escudo.png>
+Package pdftex.def Info: Escudo.png used on input line 128.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.112 \section
-              {Pregunta 2}
+l.128 \begin{center}
+                    
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1008,15 +993,65 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.112 \section
-              {Pregunta 2}
+l.128 \begin{center}
+                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[3 <./tarea_1-c.png> <./tarea_1-c2.png> <./tarea_1-c3.png>]
+[3 <./tarea_1-a-4.png> <./tarea_1-c.png> <./tarea_1-c2.png>]
+<tarea_1-c3.png, id=25, 1290.8225pt x 598.235pt>
+File: tarea_1-c3.png Graphic file (type png)
+ <use tarea_1-c3.png>
+Package pdftex.def Info: tarea_1-c3.png used on input line 129.
+(pdftex.def)             Requested size: 263.99004pt x 122.34692pt.
 
-LaTeX Warning: File `tarea_4-a.png' not found on input line 133.
+<tarea1-c4.png, id=26, 1290.8225pt x 598.235pt>
+File: tarea1-c4.png Graphic file (type png)
+ <use tarea1-c4.png>
+Package pdftex.def Info: tarea1-c4.png used on input line 133.
+(pdftex.def)             Requested size: 263.99004pt x 122.34692pt.
+LaTeX Font Info:    Try loading font information for TS1+aer on input line 142.
+
+LaTeX Font Info:    No file TS1aer.fd. on input line 142.
+
+
+LaTeX Font Warning: Font shape `TS1/aer/m/n' undefined
+(Font)              using `TS1/cmr/m/n' instead
+(Font)              for symbol `textbullet' on input line 142.
+
+File: Escudo.png Graphic file (type png)
+<use Escudo.png>
+Package pdftex.def Info: Escudo.png used on input line 149.
+(pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
+
+! Undefined control sequence.
+<recently read> \lab 
+                     
+l.149 
+      
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.149 
+      
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[4 <./tarea_1-c3.png> <./tarea1-c4.png>]
+
+LaTeX Warning: File `tarea_4-a.png' not found on input line 160.
 
 
 ! Package pdftex.def Error: File `tarea_4-a.png' not found.
@@ -1025,55 +1060,28 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.133 \includegraphics[height=7cm]{tarea_4-a.png}
+l.160 \includegraphics[height=7cm]{tarea_4-a.png}
                                                  }
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-LaTeX Font Info:    Try loading font information for T1+aett on input line 133.
+LaTeX Font Info:    Try loading font information for T1+aett on input line 160.
 
 (/usr/local/texlive/2016/texmf-dist/tex/latex/ae/t1aett.fd
 File: t1aett.fd 1997/11/16 Font definitions for T1/aett.
 )
-! Too many }'s.
-l.133 \includegraphics[height=7cm]{tarea_4-a.png}}
+! Extra }, or forgotten \endgroup.
+l.160 \includegraphics[height=7cm]{tarea_4-a.png}}
                                                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
-
-File: Escudo.png Graphic file (type png)
-<use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 134.
-(pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
-
-! Undefined control sequence.
-<recently read> \lab 
-                     
-l.134 \subsection
-                 {Parte (b)}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
 
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.134 \subsection
-                 {Parte (b)}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[4 <./tarea1-c4.png>]
-
-LaTeX Warning: File `tarea_4-b.png' not found on input line 135.
+LaTeX Warning: File `tarea_4-b.png' not found on input line 162.
 
 
 ! Package pdftex.def Error: File `tarea_4-b.png' not found.
@@ -1082,20 +1090,53 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.135 \includegraphics[height=8cm]{tarea_4-b.png}
+l.162 \includegraphics[height=8cm]{tarea_4-b.png}
                                                  }
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-! Too many }'s.
-l.135 \includegraphics[height=8cm]{tarea_4-b.png}}
+! Extra }, or forgotten \endgroup.
+l.162 \includegraphics[height=8cm]{tarea_4-b.png}}
                                                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
+
+File: Escudo.png Graphic file (type png)
+<use Escudo.png>
+Package pdftex.def Info: Escudo.png used on input line 163.
+(pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
+
+! Undefined control sequence.
+<recently read> \lab 
+                     
+l.163 \subsection
+                 {Parte (c)}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
 
-LaTeX Warning: File `tarea_4-c.png' not found on input line 137.
+! LaTeX Error: There's no line here to end.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.163 \subsection
+                 {Parte (c)}
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+[5]
+
+LaTeX Warning: File `tarea_4-c.png' not found on input line 164.
 
 
 ! Package pdftex.def Error: File `tarea_4-c.png' not found.
@@ -1104,44 +1145,14 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 ...ludegraphics[height=9.5cm]{tarea_4-c.png}
+l.164 ...ludegraphics[height=9.5cm]{tarea_4-c.png}
                                                   
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-File: Escudo.png Graphic file (type png)
-<use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 139.
-(pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
-! Undefined control sequence.
-<recently read> \lab 
-                     
-l.139 \section
-              {Pregunta 5}
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-! LaTeX Error: There's no line here to end.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.139 \section
-              {Pregunta 5}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-[5]
-
-LaTeX Warning: File `tarea_5-a.png' not found on input line 141.
+LaTeX Warning: File `tarea_5-a.png' not found on input line 168.
 
 
 ! Package pdftex.def Error: File `tarea_5-a.png' not found.
@@ -1150,27 +1161,30 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.141 ...ludegraphics[height=8.5cm]{tarea_5-a.png}
+l.168 ...ludegraphics[height=8.5cm]{tarea_5-a.png}
                                                   }
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-! Too many }'s.
-l.141 ...udegraphics[height=8.5cm]{tarea_5-a.png}}
+! Extra }, or forgotten \endgroup.
+l.168 ...udegraphics[height=8.5cm]{tarea_5-a.png}}
                                                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
 File: Escudo.png Graphic file (type png)
 <use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 143.
+Package pdftex.def Info: Escudo.png used on input line 170.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.143 \subsection
+l.170 \subsection
                  {Parte (b) \protect\footnote{Los nombres de los nodos fuero...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1185,7 +1199,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.143 \subsection
+l.170 \subsection
                  {Parte (b) \protect\footnote{Los nombres de los nodos fuero...
 
 Your command was ignored.
@@ -1194,7 +1208,7 @@ or  <return>  to continue without it.
 
 [6]
 
-LaTeX Warning: File `tarea_5-b.png' not found on input line 145.
+LaTeX Warning: File `tarea_5-b.png' not found on input line 172.
 
 
 ! Package pdftex.def Error: File `tarea_5-b.png' not found.
@@ -1203,27 +1217,30 @@ See the pdftex.def package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.145 ...ludegraphics[height=7.2cm]{tarea_5-b.png}
+l.172 ...ludegraphics[height=7.2cm]{tarea_5-b.png}
                                                   }
 Using draft setting for this image.
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-! Too many }'s.
-l.145 ...udegraphics[height=7.2cm]{tarea_5-b.png}}
+! Extra }, or forgotten \endgroup.
+l.172 ...udegraphics[height=7.2cm]{tarea_5-b.png}}
                                                   
-You've closed more groups than you opened.
-Such booboos are generally harmless, so keep going.
+I've deleted a group-closing symbol because it seems to be
+spurious, as in `$x}$'. But perhaps the } is legitimate and
+you forgot something else, as in `\hbox{$x}'. In such cases
+the way to recover is to insert both the forgotten and the
+deleted material, e.g., by typing `I$}'.
 
 File: Escudo.png Graphic file (type png)
 <use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 147.
+Package pdftex.def Info: Escudo.png used on input line 174.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.147 \newpage
+l.174 \newpage
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1238,41 +1255,60 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.147 \newpage
+l.174 \newpage
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 150--151
+Underfull \hbox (badness 10000) in paragraph at lines 177--178
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 152--153
+Overfull \hbox (9.21025pt too wide) in paragraph at lines 179--180
+[]\T1/aer/m/n/10.95 Siguiendo aho-ra des-de el es-ta-do q0q1q2q3q7q9 con ^^Pa^^
+Q se lle-ga al si-guien-te es-ta-do (q0q1q2q3q4q5q6q11)
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 179--180
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 154--155
+Underfull \hbox (badness 10000) in paragraph at lines 181--182
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--157
+Underfull \hbox (badness 10000) in paragraph at lines 183--184
 
  []
+
+
+! LaTeX Error: \begin{itemize} on input line 118 ended by \end{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.187 \end{document}
+                    
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
 
 File: Escudo.png Graphic file (type png)
 <use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 160.
+Package pdftex.def Info: Escudo.png used on input line 187.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.160 \end{document}
+l.187 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1287,7 +1323,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160 \end{document}
+l.187 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1296,29 +1332,39 @@ or  <return>  to continue without it.
 [8] (./JorgeContreras-201573547-6_JuanPJorquera-201573533-6.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
-) ) 
+)
+
+LaTeX Font Warning: Some font shapes were not available, defaults substituted.
+
+ )
+(\end occurred inside a group at level 1)
+
+### semi simple group (level 1) entered at line 118 (\begingroup)
+### bottom level 
 Here is how much of TeX's memory you used:
- 5327 strings out of 493014
- 69663 string characters out of 6133351
+ 5346 strings out of 493014
+ 69901 string characters out of 6133351
  140934 words of memory out of 5000000
- 8710 multiletter control sequences out of 15000+600000
- 33674 words of font info for 80 fonts, out of 8000000 for 9000
+ 8726 multiletter control sequences out of 15000+600000
+ 34015 words of font info for 81 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,15n,43p,702b,453s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
-b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
-></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><
-/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></us
-r/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/l
-ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/loca
-l/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local
-/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/t
-exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
+ 37i,14n,43p,702b,471s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm
+-super-ts1.enc}</usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/
+cm/cmbx12.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/c
+m/cmmi10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm
+/cmr10.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/c
+mr6.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8
+.pfb></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pf
+b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
+></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><
+/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb></
+usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
 Output written on JorgeContreras-201573547-6_JuanPJorquera-201573533-6.pdf (8 p
-ages, 696822 bytes).
+ages, 705793 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
- 48 compressed objects within 1 object stream
+ 84 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

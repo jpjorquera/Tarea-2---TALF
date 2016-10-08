@@ -1,7 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1475807143 "JorgeContreras-201573547-6_JuanPJorquera-201573533-6.tex" "JorgeContreras-201573547-6_JuanPJorquera-201573533-6.pdf" "JorgeContreras-201573547-6_JuanPJorquera-201573533-6" 1475807144
+["pdflatex"] 1475961170 "JorgeContreras-201573547-6_JuanPJorquera-201573533-6.tex" "JorgeContreras-201573547-6_JuanPJorquera-201573533-6.pdf" "JorgeContreras-201573547-6_JuanPJorquera-201573533-6" 1475961203
+  "/usr/local/texlive/2016/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1136849721 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/map/fontname/texfonts.map" 1272929888 3287 e6b82fe08f5336d4d5ebc73fb1152e87 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/ecrm1095.tfm" 1136768653 3584 929cdff2b7a8c11bd4d49fd68cb0ae70 ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/tfm/jknappen/ec/tcrm1095.tfm" 1136768653 1536 02c06700a42be0f5a28664c7273f82e7 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aebx12.tfm" 1136768653 6132 8ad25ac1b8f3422e2a7eaeb718e3c843 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aer10.tfm" 1136768653 6076 dc5394361b1c55a30e76ff07ab99157c ""
   "/usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aer12.tfm" 1136768653 6084 8180e586f034a9866b6c5554cc5644fe ""
@@ -48,6 +50,7 @@
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb" 1248133631 32569 5e5ddc8df908dea60932f3c484a54c0d ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb" 1248133631 32626 4f5c1b83753b1dd3a97d1b399a005b4b ""
   "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmtt10.pfb" 1248133631 31099 c85edf1dd5b9e826d67c9c7293b6786c ""
+  "/usr/local/texlive/2016/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb" 1215737283 145929 f25e56369a345c4ff583b067cd87ce8e ""
   "/usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aebx12.vf" 1136768653 3188 9220059dad8c24eb72c5ca13862eaaa7 ""
   "/usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aer10.vf" 1136768653 3160 99d961359fad2b22331b477acf927f3b ""
   "/usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aer6.vf" 1136768653 3176 2fff6349f967bea351d9cbbd0dbffa36 ""
@@ -114,8 +117,8 @@
   "/usr/local/texlive/2016/texmf-var/web2c/pdftex/pdflatex.fmt" 1463979169 3873397 413fbfbbedb8e719ddc392043a7add02 ""
   "/usr/local/texlive/2016/texmf.cnf" 1463979140 577 2938757e76f31531e65cc647e3507693 ""
   "Escudo.png" 1399003590 359608 efb29b942cdb2c70cca512ab36a7e416 ""
-  "JorgeContreras-201573547-6_JuanPJorquera-201573533-6.aux" 1475807144 2013 8ce57655e0622345bbb8de2ad2c04307 ""
-  "JorgeContreras-201573547-6_JuanPJorquera-201573533-6.tex" 1475807143 6384 ff8dd85ff5c425a17a821df8ea86536b ""
+  "JorgeContreras-201573547-6_JuanPJorquera-201573533-6.aux" 1475961171 2085 dc049909ea122efd79a40d931182586d ""
+  "JorgeContreras-201573547-6_JuanPJorquera-201573533-6.tex" 1475961169 7170 51b87d05094ff3c4f5a8663cc4bafc20 ""
   "tarea1-c4.png" 1475549930 18565 cb77c953fc75d7e1789e4eefd30e4c0c ""
   "tarea_1-a-2.png" 1475548868 36053 80837caf858dba69c6da2a1ad10c9f8f ""
   "tarea_1-a-3.png" 1475548908 32800 e3374f59927f729a6f2865ce68b95404 ""

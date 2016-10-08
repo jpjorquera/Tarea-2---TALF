@@ -67,20 +67,10 @@ Juan Pablo Jorquera  201573533-6 \\
 \section{Pregunta 1}
 Primero realizamos el AFD de la tabla para poder trabajar sobre él.
 
-\includegraphics[height=6cm]{tarea_1.png}
+\includegraphics[height=5cm]{tarea_1.png}
 \subsection{Parte (a)}
-Paso 1: Eliminar q2.
+Primero hacemos la tabla correspondiente al autómata.
 
-\includegraphics[height=6cm]{tarea_1-a.png}
-\\ Paso 2: Eliminar q5.
-
-\includegraphics[height=6cm]{tarea_1-a-2.png}
-\\ Paso 3: Eliminar q3.
-
-\includegraphics[height=6cm]{tarea_1-a-3.png}
-\\ Paso 3: Eliminar q6.
-
-\includegraphics[height=6cm]{tarea_1-a-4.png}
 \begin{table}[h]
 \centering
 \label{tabla_min}
@@ -93,21 +83,58 @@ q5 & X  & X  & X  & X  & O  &    \\
 q6 & X  & O  & X  & O  & X  & X  \\
    & q0 & q1 & q2 & q3 & q4 & q5
 \end{tabular}
-\caption{Primera Iteración}
+\caption{Tabla de equivalencias}
 \end{table}
 
+Luego continuamos eliminando los que son equivalentes:
+\newpage
+\begin{itemize}
+\item{Eliminar q2:}
+
+\includegraphics[height=5cm]{tarea_1-a.png}
+
+\item{Eliminar q5:}
+
+\includegraphics[height=5cm]{tarea_1-a-2.png}
+
+\item{Eliminar q3:}
+
+\includegraphics[height=5cm]{tarea_1-a-3.png}
+\newpage
+\item{Eliminar q6:}
+
+\includegraphics[height=5cm]{tarea_1-a-4.png}
+\end{itemize}
+
+
 \subsection{Parte (b)}
-Intentamos demostrar viendo que L corresponde a una concatenación de palabras, como  
+\begin{itemize}
+	\item{Tomando q0 y q1: la palabra "b" distingue a ambos, ya que quedan en distinto estado de aceptación.}
+	\item{Tomando q0 y q4: simplemente "a" los distingue.}
+	\item{Tomando q1 y q4: "ab" los distingue.}
+\end{itemize}
 
 \subsection{Parte (c)}
-
+\begin{itemize}
+\item{Primero normalizamos para tener un nodo de entrada y de salida claros.}
+\begin{center}
 \includegraphics[height=4.3cm]{tarea_1-c.png}
-
+\end{center}
+\item{Luego eliminamos el nodo "basura" que se encuentra.}
+\begin{center}
 \includegraphics[height=4.3cm]{tarea_1-c2.png}
-
+\end{center}
+\item{Eliminamos q4.}
+\begin{center}
 \includegraphics[height=4.3cm]{tarea_1-c3.png}
-
+\end{center}
+\item{Finalmente eliminamos q0.}
+\begin{center}
 \includegraphics[height=4.3cm]{tarea1-c4.png}
+\end{center}
+
+\subsection{Parte (d)}
+Corresponde al lenguaje que si tiene una "a", a cada una de ellas debe precederla una o más "b" y, finalmente, termina con una o más "b".
 
 \section{Pregunta 2}
 \subsection{Parte (a)}
