@@ -110,8 +110,8 @@ Luego continuamos eliminando los que son equivalentes:
 \subsection{Parte (b)}
 \begin{itemize}
 	\item{Tomando q0 y q1: la palabra ``b'' distingue a ambos, ya que quedan en distinto estado de aceptación.}
-	\item{Tomando q0 y q4: simplemente ``a'' los distingue.}
-	\item{Tomando q1 y q4: ``ab'' los distingue.}
+	\item{Tomando q0 y q4: simplemente ``ab'' los distingue.}
+	\item{Tomando q1 y q4: ``b'' los distingue.}
 \end{itemize}
 
 \subsection{Parte (c)}
@@ -157,7 +157,7 @@ Sea w = a^nb^{n-1}, w$ \epsilon $ L$_{1}$
 w = xyz, con |xy|$\leqslant$n ; |y|$\geqslant$1.
  \\
 
-Necesariamente x e y están dentro de a^n, As$í$:
+Necesariamente x e y están dentro de a^n, Así:
 
 x = a^p, p$\geqslant$0.
 
@@ -193,7 +193,7 @@ Sea w = a^nca^n, w$ \epsilon $ L$_{2}$
 w = xyz, con |xy|$\leqslant$n ; |y|$\geqslant$1.
  \\
 
-Necesariamente x e y están dentro de a^n, As$í$:
+Necesariamente x e y están dentro de a^n, Así:
 
 x = a^p, p$\geqslant$0.
 
@@ -223,7 +223,9 @@ q = 0
 Pero q$\geqslant$1, por lo cual la palabra no pertenece al lenguaje y así demostramos que $L_{2}$ NO es regular.
 
 \subsection{Parte (c)}
-Como pudimos generar un aut$ó$mata para el lenguaje, L$_{3}$ es regular.
+\includegraphics[height=5cm]{tarea_3-c.png}
+
+Como pudimos generar un autómata para el lenguaje, L$_{3}$ es regular.
 
 
 \subsection{Parte (d)}
@@ -232,7 +234,7 @@ Sea w = a^{2n}b^{2n-1}, w$ \epsilon $ L$_{4}$
 w = xyz, con |xy|$\leqslant$2n ; |y|$\geqslant$1.
  \\
 
-Necesariamente x e y están dentro de a^{2n}, As$í$:
+Necesariamente x e y están dentro de a^{2n}, Así:
 
 x = a^p, p$\geqslant$0.
 
@@ -271,9 +273,9 @@ Pero q$\geqslant$1, existiendo así una contradicción.
 2n+q(k-1) es par
  \\
  
-Elegimos k = 1/q + 1
+Elegimos k = $\frac{1}{q}$ + 1
 
-2n+q(1/q + 1 -1)
+2n+q($\frac{1}{q}$ + 1 -1)
 
 2n+1
 
@@ -281,6 +283,14 @@ Lo cual siempre es impar.
  \\
 
 Como no se cumple ni (1) ni (2), podemos asegurar que el lenguaje L$_{4}$ NO es regular
+
+
+\subsection{Parte (e)}
+El metro de Santiago posee 5 líneas y 100 estaciones en total, pudiendo llegar desde cualquier estación de cualquier línea a otra estación de cualquier línea igualmente, es decir, es un grafo conexo. Como la cantidad de estaciones es finita, se puede crear un automáta finito en el cual las estaciones hacen de estados, y las transiciones de los estados corresponden a las estaciones que se encuentran inmediatante conectadas a otra estación, por ejemplo Camino Agrícola posee dos transiciones, a San Joaquín y a Carlos Valdovinos, mientras que Los Heroes posee 4 transiciones, a Toesca, Santa Ana, Moneda y República.
+ \\
+ \\
+Como es posible la creación de un autómata finito, el lenguaje L$_{5}$ es regular.
+
 
 \section{Pregunta 4}
 \subsection{Parte (a)}
