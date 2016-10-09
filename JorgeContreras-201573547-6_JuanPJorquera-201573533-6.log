@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 OCT 2016 22:26
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  8 OCT 2016 23:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1011,24 +1011,8 @@ File: tarea1-c4.png Graphic file (type png)
  <use tarea1-c4.png>
 Package pdftex.def Info: tarea1-c4.png used on input line 133.
 (pdftex.def)             Requested size: 263.99004pt x 122.34692pt.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.155 Sea w = a^
-                nb^{n-1}, w$ \epsilon $ L$_{1}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.155 Sea w = a^nb^{n-1}, w$ \epsilon
-                                      $ L$_{1}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 File: Escudo.png Graphic file (type png)
+
 <use Escudo.png>
 Package pdftex.def Info: Escudo.png used on input line 157.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
@@ -1036,8 +1020,8 @@ Package pdftex.def Info: Escudo.png used on input line 157.
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.157 w
-        = xyz, con |xy|$\leqslant$n ; |y|$\geqslant$1.
+l.157 $
+       w = xyz$, con $|xy| \leqslant n$ ; $|y|\geqslant 1$.
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1051,8 +1035,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.157 w
-        = xyz, con |xy|$\leqslant$n ; |y|$\geqslant$1.
+l.157 $
+       w = xyz$, con $|xy| \leqslant n$ ; $|y|\geqslant 1$.
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1061,70 +1045,6 @@ or  <return>  to continue without it.
 Underfull \hbox (badness 10000) in paragraph at lines 157--159
 
  []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.160 Necesariamente x e y están dentro de a^
-                                              n, As$í$:
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.161 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.162 x = a^
-            p, p$\geqslant$0.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.162 x = a^p, p$\geqslant
-                          $0.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.164 y = a^
-            q, q$\geqslant$1.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.164 y = a^q, q$\geqslant
-                          $1.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.166 z = a^
-            {n-p-q}b^{n-1}.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.168 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 166--168
@@ -1135,22 +1055,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 166--168
 Underfull \hbox (badness 10000) in paragraph at lines 169--171
 
  []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.172 xy^
-         kz = a^{n+q(k-1)}b^{n-1}.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.174 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 172--174
@@ -1167,90 +1071,10 @@ Underfull \hbox (badness 10000) in paragraph at lines 180--182
 
  []
 
-! Missing $ inserted.
-<inserted text> 
-                $
-l.191 Sea w = a^
-                nca^n, w$ \epsilon $ L$_{2}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.191 Sea w = a^nca^n, w$ \epsilon
-                                   $ L$_{2}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 193--195
 
  []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.196 Necesariamente x e y están dentro de a^
-                                              n, As$í$:
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.197 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.198 x = a^
-            p, p$\geqslant$0.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.198 x = a^p, p$\geqslant
-                          $0.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.200 y = a^
-            q, q$\geqslant$1.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.200 y = a^q, q$\geqslant
-                          $1.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.202 z = a^
-            {n-p-q}ca^n.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.204 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 202--204
@@ -1261,22 +1085,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 202--204
 Underfull \hbox (badness 10000) in paragraph at lines 205--207
 
  []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.208 xy^
-         kz = a^{n+q(k-1)}ca^n.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.210 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
 
 
 Underfull \hbox (badness 10000) in paragraph at lines 208--210
@@ -1302,7 +1110,7 @@ Package pdftex.def Info: Escudo.png used on input line 223.
 <recently read> \lab 
                      
 l.223 P
-       ero q$\geqslant$1, por lo cual la palabra no pertenece al lenguaje y ...
+       ero $q \geqslant 1$, por lo cual la palabra no pertenece al lenguaje ...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1317,168 +1125,67 @@ Type  H <return>  for immediate help.
  ...                                              
                                                   
 l.223 P
-       ero q$\geqslant$1, por lo cual la palabra no pertenece al lenguaje y ...
+       ero $q \geqslant 1$, por lo cual la palabra no pertenece al lenguaje ...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[5]
+[5] <tarea_3-c.png, id=38, 1290.8225pt x 598.235pt>
+File: tarea_3-c.png Graphic file (type png)
+ <use tarea_3-c.png>
+Package pdftex.def Info: tarea_3-c.png used on input line 226.
+(pdftex.def)             Requested size: 306.96745pt x 142.26378pt.
 
-LaTeX Warning: Command \' invalid in math mode on input line 226.
-
-Missing character: There is no � in font cmr10!
-! Missing $ inserted.
-<inserted text> 
-                $
-l.230 Sea w = a^
-                {2n}b^{2n-1}, w$ \epsilon $ L$_{4}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.230 Sea w = a^{2n}b^{2n-1}, w$ \epsilon
-                                          $ L$_{4}$
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 232--234
-
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.235 Necesariamente x e y están dentro de a^
-                                              {2n}, As$í$:
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.236 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.237 x = a^
-            p, p$\geqslant$0.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.237 x = a^p, p$\geqslant
-                          $0.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.239 y = a^
-            q, q$\geqslant$1.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.239 y = a^q, q$\geqslant
-                          $1.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.241 z = a^
-            {2n-p-q}b^{2n-1}.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.243 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--243
+Underfull \hbox (badness 10000) in paragraph at lines 234--236
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 244--246
-
- []
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.247 xy^
-         kz = a^{2n+q(k-1)}b^{2n-1}.
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-! Missing $ inserted.
-<inserted text> 
-                $
-l.249 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 247--249
+Underfull \hbox (badness 10000) in paragraph at lines 243--245
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 250--252
+Underfull \hbox (badness 10000) in paragraph at lines 246--248
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 257--259
+Underfull \hbox (badness 10000) in paragraph at lines 249--251
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 266--268
+Underfull \hbox (badness 10000) in paragraph at lines 252--254
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 271--273
+Underfull \hbox (badness 10000) in paragraph at lines 259--261
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 280--282
+Underfull \hbox (badness 10000) in paragraph at lines 268--270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 273--275
 
  []
 
 File: Escudo.png Graphic file (type png)
 <use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 296.
+Package pdftex.def Info: Escudo.png used on input line 276.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.296 \newpage
-              
+l.276 E
+       legimos $k = \frac{1}{q} + 1$
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1492,22 +1199,31 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.296 \newpage
-              
+l.276 E
+       legimos $k = \frac{1}{q} + 1$
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[6]
+[6 <./tarea_3-c.png (PNG copy)>]
+Underfull \hbox (badness 10000) in paragraph at lines 282--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--293
+
+ []
+
 File: Escudo.png Graphic file (type png)
- <use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 296.
+<use Escudo.png>
+Package pdftex.def Info: Escudo.png used on input line 306.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.296 \newpage
+l.306 \newpage
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1522,41 +1238,41 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.296 \newpage
+l.306 \newpage
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 299--300
+Underfull \hbox (badness 10000) in paragraph at lines 309--310
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 301--302
+Underfull \hbox (badness 10000) in paragraph at lines 311--312
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 303--304
+Underfull \hbox (badness 10000) in paragraph at lines 313--314
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 305--306
+Underfull \hbox (badness 10000) in paragraph at lines 315--316
 
  []
 
 File: Escudo.png Graphic file (type png)
 <use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 309.
+Package pdftex.def Info: Escudo.png used on input line 319.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.309 \end{document}
+l.319 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1571,7 +1287,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.309 \end{document}
+l.319 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1582,8 +1298,8 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 5300 strings out of 493014
- 69242 string characters out of 6133351
+ 5301 strings out of 493014
+ 69274 string characters out of 6133351
  141934 words of memory out of 5000000
  8694 multiletter control sequences out of 15000+600000
  32827 words of font info for 77 fonts, out of 8000000 for 9000
@@ -1600,10 +1316,10 @@ texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 Output written on JorgeContreras-201573547-6_JuanPJorquera-201573533-6.pdf (8 p
-ages, 710261 bytes).
+ages, 728065 bytes).
 PDF statistics:
- 83 PDF objects out of 1000 (max. 8388607)
+ 84 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 51 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 
