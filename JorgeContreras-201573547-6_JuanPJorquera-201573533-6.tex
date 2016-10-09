@@ -137,16 +137,139 @@ Luego continuamos eliminando los que son equivalentes:
 \subsection{Parte (d)}
 Corresponde al lenguaje que comienza con una o más ``b'' y, si lo sigue una ``a'', se repite el proceso con ``b'' nuevamente.
 
+
 \section{Pregunta 2}
 \subsection{Parte (a)}
-\begin{itemize}
-\item{Pertenece: baabba}
-\item{No Pertenece: bababa}
-\end{itemize}
+Sea w = a^nb^{n-1}, w$ \epsilon $ L$_{1}$
+
+w = xyz, con |xy|$\leqslant$n ; |y|$\geqslant$1.
+ \\
+
+Necesariamente x e y están dentro de a^n, As$í$:
+
+x = a^p, p$\geqslant$0.
+
+y = a^q, q$\geqslant$1.
+
+z = a^{n-p-q}b^{n-1}.
+ \\
+
+Aplicamos Teorema del Bombeo, k veces y.
+ \\
+ 
+xy^kz = a^{n+q(k-1)}b^{n-1}.
+ \\
+
+Para que la palabra pertenezca a $L_{1}$ se debe cumplir que:
+ \\
+ 
+|n+q(k-1) - (n-1)|$\leqslant$42
+
+|q(k-1) -1|$\leqslant$42
+ \\
+ 
+Elegimos k=50, quedando
+
+|49q - 1|$\leqslant$42
+
+Como q$\geqslant$1, lo anterior es una contradicción y por lo tanto el lenguaje $L_{1}$ NO es regular.
+
+
 \subsection{Parte (b)}
-Al estar w definido en el alfabeto $\Sigma$, podemos decir que |w| = a con a > 0, por lo que al concatenar, los largos |ww| = 2a ; |www| = 3a y como a > 0, entonces |ww| siempre será distinto a |www|, por lo que dicho lenguaje es vacío.
+Sea w = a^nca^n, w$ \epsilon $ L$_{2}$
+
+w = xyz, con |xy|$\leqslant$n ; |y|$\geqslant$1.
+ \\
+
+Necesariamente x e y están dentro de a^n, As$í$:
+
+x = a^p, p$\geqslant$0.
+
+y = a^q, q$\geqslant$1.
+
+z = a^{n-p-q}ca^n.
+ \\
+
+Aplicamos Teorema del Bombeo, k veces y.
+ \\
+ 
+xy^kz = a^{n+q(k-1)}ca^n.
+ \\
+
+Para que la palabra pertenezca a $L_{2}$ se debe cumplir que:
+ \\
+ 
+n+q(k-1) = n
+
+q(k-1) = 0
+ \\
+ 
+Elegimos k=2, quedando
+
+q = 0
+
+Pero q$\geqslant$1, por lo cual la palabra no pertenece al lenguaje y así demostramos que $L_{2}$ NO es regular.
+
 \subsection{Parte (c)}
-Como u y v pertenecen a $\Sigma ^*$ podemos tomar el caso particular de u = v = $\epsilon$, en dicho caso la regla para w sería equivalente a: w = w; lo que sabemos se cumple siempre, por lo que este lenguaje es completo.
+Como pudimos generar un aut$ó$mata para el lenguaje, L$_{3}$ es regular.
+
+
+\subsection{Parte (d)}
+Sea w = a^{2n}b^{2n-1}, w$ \epsilon $ L$_{4}$
+
+w = xyz, con |xy|$\leqslant$2n ; |y|$\geqslant$1.
+ \\
+
+Necesariamente x e y están dentro de a^{2n}, As$í$:
+
+x = a^p, p$\geqslant$0.
+
+y = a^q, q$\geqslant$1.
+
+z = a^{2n-p-q}b^{2n-1}.
+ \\
+
+Aplicamos Teorema del Bombeo, k veces y.
+ \\
+ 
+xy^kz = a^{2n+q(k-1)}b^{2n-1}.
+ \\
+
+Para que la palabra pertenezca a $L_{4}$ se debe cumplir:
+ \\
+ 
+(1)
+
+2n+q(k-1) $\geqslant$ 2n-1
+
+q(k-1) $\geqslant$ -1
+ \\
+ 
+Elegimos k=0, quedando
+
+-q $\geqslant$ -1
+
+q $\leqslant$ 1
+
+Pero q$\geqslant$1, existiendo así una contradicción.
+ \\
+ 
+(2) 
+
+2n+q(k-1) es par
+ \\
+ 
+Elegimos k = 1/q + 1
+
+2n+q(1/q + 1 -1)
+
+2n+1
+
+Lo cual siempre es impar.
+ \\
+
+Como no se cumple ni (1) ni (2), podemos asegurar que el lenguaje L$_{4}$ NO es regular
+
 
 \section{Pregunta 3}
 \subsection{Parte (a)}
