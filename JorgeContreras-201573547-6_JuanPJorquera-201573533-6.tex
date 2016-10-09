@@ -137,8 +137,20 @@ Luego continuamos eliminando los que son equivalentes:
 \subsection{Parte (d)}
 Corresponde al lenguaje que comienza con una o más ``b'' y, si lo sigue una ``a'', se repite el proceso con ``b'' nuevamente.
 
-
 \section{Pregunta 2}
+Si tomamos $L_B = LL_bL$ \hspace{0.1cm} donde $L_b = \{b\}$, claramente $L_B$ y $L_b$ son regulares al ser parte L. Por otro lado tenemos que: 
+\begin{equation}
+	L' \Leftrightarrow L_B - L_b
+\end{equation}
+
+Usando propiedades de conjuntos tenemos:
+\begin{equation}
+	L' \Leftrightarrow L_B - L_b \Leftrightarrow  L_B \cap L_b^c
+\end{equation}
+Donde por propiedades de clausura se sabe que como $L_b$ es regular, entonces $L_b^c$ también es regular. De igual forma, se deduce que la intersección de ambos lenguajes regulares $L_B$ y $L_b^c$ es regular, por lo que $L'$ también es regular.
+
+
+\section{Pregunta 3}
 \subsection{Parte (a)}
 Sea w = a^nb^{n-1}, w$ \epsilon $ L$_{1}$
 
@@ -269,15 +281,6 @@ Lo cual siempre es impar.
  \\
 
 Como no se cumple ni (1) ni (2), podemos asegurar que el lenguaje L$_{4}$ NO es regular
-
-
-\section{Pregunta 3}
-\subsection{Parte (a)}
-b*(ab*ab*ab*)*
-\subsection{Parte (b)}
-(b+ab+aab)*aaa(ba+baa+b)*
-\subsection{Parte (c)}
-(b+ab+aab)*(ba+baa+b)*
 
 \section{Pregunta 4}
 \subsection{Parte (a)}
