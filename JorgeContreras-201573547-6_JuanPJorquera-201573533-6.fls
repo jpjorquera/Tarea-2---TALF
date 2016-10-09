@@ -207,6 +207,9 @@ INPUT ./tarea_3-c.png
 INPUT ./tarea_3-c.png
 INPUT Escudo.png
 INPUT ./Escudo.png
+INPUT tarea_4-a.png
+INPUT ./tarea_4-a.png
+INPUT ./tarea_4-a.png
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmr12.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm
@@ -225,6 +228,8 @@ INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/tfm/public/ae/aer6.tfm
+INPUT Escudo.png
+INPUT ./Escudo.png
 INPUT Escudo.png
 INPUT ./Escudo.png
 INPUT /usr/local/texlive/2016/texmf-dist/fonts/vf/public/ae/aer8.vf
