@@ -299,12 +299,11 @@ Como se puede ver el AFND a continuación, antes del $n-$ésimo símbolo (contad
 \includegraphics[height=5cm]{tarea_4-a.png}
 \subsection{Parte (b)}
 En primer lugar damos más importancia para cada estado después de la ``a'' requerida (inicialmente siempre hay un loop de ``b'', ya que no importa lo que esté concatenado antes), encontes verificamos lo que podemos concatenar después según Myhill-Nerode, ya que dependiendo del $n$ puede variar el resultado, por ejemplo si tenemos (a partir del $n$-ésimo caracter):
-\begin{enumerate}
+\begin{itemize}
 \item{``aa'': Al concatenar al final de la palabra ``a'' se distingue convirtiéndose el segundo ``a'' en el nuevo $n$-ésimo y quedando finalmente en aceptación.}
 \item{``ab'': Por otro lado si concatenamos ``a'' en este caso el ``b'' pasaría a ser el $n$-ésimo quedando fuera de la aceptación.}
-\end{enumerate}
+\end{itemize}
 Entonces nos damos cuenta que para cada caracter después del $n$-ésimo caracter se crean clases de equivalencia distintas diferenciándose en cual es la última posición de ``a'' y pudiéndo volver a éstas según corresponda, por lo que es necesario crear dos estados nuevos por cada caracter de $n$, por lo que finalmente la cantidad de estados será por lo menos $2^n$. Cabe resaltar que la mitad de $2^n$ serán de aceptación al estar en el último nivel y que en uno de ellos se encontrará un loop de ``a'', ya que si se sigue un camino de sólo ``a'' da lo mismo las que se agreguen, el $n$-ésimo seguirá siendo ``a''. \\
-
 
 A continuación se muestra un ejemplo para $n = 2$, para ayudar la visualización.
 
@@ -313,13 +312,52 @@ A continuación se muestra un ejemplo para $n = 2$, para ayudar la visualizació
 
 \section{Pregunta 5}
 \subsection{Parte (a)}
-\renewcommand{\thefootnote}{\fnsymbol{footnote}}
-\subsection{Parte (b) \protect\footnote{Los nombres de los nodos fueron puestos como etiquetas para evitar problemas de visibilidad. asdasd}}
+Es decidible, ya que dado un lenguaje regular, con su respectivo AFD (o AFND), siempre se puede identificar si alguna de las palabras que aceptan es. Una forma de realizar esto sería:
 
+\begin{enumerate}
+	\item Ver caminos posibles desde el inicio hasta cualquier estado de aceptación.
+	\item Calcular distancia de dichos caminos ignorando los loops que se encuentren, si ésta es de tamaño par, inmediatamente se cumple. Por otro lado si es de tamaño impar, hay que verificar loops que se encuentren:
+	\begin{itemize}
+		\item Si hay un loop de tamaño par, simplemente ignorar, ya que no afecta la paridad de la palabra.
+		\item Si, por otro lado, hay loop de tamaño impar (incluyen los que se hacen sobre el mismo estado), se cumple la condición, ya que se puede recorrer cualquier número de veces el loop hasta formar la paridad requerida.
+		\item Si simplemente no hay loops o si todos ellos eran de tamaño par, significa que el lenguaje no cumple con incluir palabras de largo par.
+	\end{itemize}
+\end{enumerate}
 
-\newpage
+\subsection{Parte (b)}
+En este caso, el problema también es decidible, una forma de hacer eso es tomando el algoritmo usado en la Parte (a) y modificarlo en el punto 1:
+La única diferencia es que en vez de realizar el proceso para cualquier camino entre el inicio y estado de aceptación, se debe hacer para todo camino posible hacia todo estado de aceptación, para así verificar la paridad para la totalidad del lenguaje.
+
 \subsection{Parte (c)}
+También resulta un problema decidible, para ello tomamos el AFD mínimo del lenguaje que se requiera identificar y sobre él verificamos si ya es par, en caso de no ser:
+\begin{itemize}
+	\item Tomar un estado que tenga más de un camino entrante. Si hay, se puede agregar un estado adicional:
+		\begin{enumerate}
+			\item Dirigir alguno de los caminos entrantes hacia un nuevo estado, que cumpla la misma aceptación que el objetivo anterior.
+			\item Copiar caminos que partan del estado anterior, esta ver partiendo desde el estado nuevo.
+			\item Finalmente con dicho estado, el AFD tiene una cantidad par de estados.
+		\end{enumerate}
+	\item En caso de no haber, no se pueden agregar más estados y no hay ADF con cantidad par de estados.
+\end{itemize}
 
+Un ejemplo de un caso en que no haya AFD con cantidad par de estados se muestra a continuación com un alfabeto = \{a\}:
+\begin{center}
+\includegraphics[height=6cm]{tarea_5-c.png}
+\end{center}
 
+Se ve que no se pueden agregar estados adicionales, ya que para agregar alguno sobre los caminos que llegan a q1 o q2, habría simplemente que reemplazar el estado elegido, dejándolo inalcanzable y sacándolo así del AFD.
+
+El caso opuesto lo vemos con el siguiente AFD que cumple la condición:
+\begin{center}
+\includegraphics[height=5cm]{tarea_5-c2.png}
+\end{center}
+
+Donde obligatoriamente de elige q1 y se puede agregar un estado sobre cualquiera de los dos caminos, un ejemplo de ello sería:
+\begin{center}
+\includegraphics[height=6cm]{tarea_5-c3.png}
+\end{center}
+
+Donde se utilizan los pasos mencionados y se deja
+el AFD inalterado para el lenguaje que lo representa, esta vez con una cantidad par de estados
 
 \end{document}
