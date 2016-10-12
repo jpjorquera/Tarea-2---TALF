@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  9 OCT 2016 17:41
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  12 OCT 2016 14:58
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1223,14 +1223,14 @@ Package pdftex.def Info: tarea_4-a.png used on input line 299.
 File: Escudo.png Graphic file (type png)
 
 <use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 309.
+Package pdftex.def Info: Escudo.png used on input line 304.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.309 \newpage
-              
+l.304 \item{
+            ``ab'': Por otro lado si concatenamos ``a'' en este caso el ``b'...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1244,22 +1244,37 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.309 \newpage
-              
+l.304 \item{
+            ``ab'': Por otro lado si concatenamos ``a'' en este caso el ``b'...
+
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [7 <./tarea_4-a.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 306--307
+
+ []
+
+<tarea_4-b.png, id=48, 1240.635pt x 569.12625pt>
+File: tarea_4-b.png Graphic file (type png)
+ <use tarea_4-b.png>
+Package pdftex.def Info: tarea_4-b.png used on input line 311.
+(pdftex.def)             Requested size: 620.25919pt x 284.52756pt.
+
+Overfull \hbox (136.77519pt too wide) in paragraph at lines 311--312
+[][] 
+ []
+
 File: Escudo.png Graphic file (type png)
- <use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 309.
+<use Escudo.png>
+Package pdftex.def Info: Escudo.png used on input line 320.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.309 \newpage
+l.320 \newpage
               
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1274,41 +1289,22 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.309 \newpage
+l.320 \newpage
               
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 312--313
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 314--315
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--317
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 318--319
-
- []
-
+[8 <./tarea_4-b.png (PNG copy)>]
 File: Escudo.png Graphic file (type png)
-<use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 322.
+ <use Escudo.png>
+Package pdftex.def Info: Escudo.png used on input line 325.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.322 \end{document}
+l.325 \end{document}
                     
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1323,7 +1319,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.322 \end{document}
+l.325 \end{document}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1334,13 +1330,13 @@ LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
 ) ) 
 Here is how much of TeX's memory you used:
- 5306 strings out of 493014
- 69358 string characters out of 6133351
+ 5311 strings out of 493014
+ 69442 string characters out of 6133351
  141934 words of memory out of 5000000
- 8698 multiletter control sequences out of 15000+600000
+ 8702 multiletter control sequences out of 15000+600000
  32827 words of font info for 77 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 37i,15n,43p,702b,468s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,15n,43p,714b,468s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pf
 b></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb
 ></usr/local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><
@@ -1352,10 +1348,10 @@ texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/t
 exlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/local/tex
 live/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 Output written on JorgeContreras-201573547-6_JuanPJorquera-201573533-6.pdf (9 p
-ages, 759866 bytes).
+ages, 788681 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
+ 90 PDF objects out of 1000 (max. 8388607)
  53 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 61 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

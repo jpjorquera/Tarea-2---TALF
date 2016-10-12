@@ -298,6 +298,17 @@ Como se puede ver el AFND a continuación, antes del $n-$ésimo símbolo (contad
 
 \includegraphics[height=5cm]{tarea_4-a.png}
 \subsection{Parte (b)}
+En primer lugar damos más importancia para cada estado después de la ``a'' requerida (inicialmente siempre hay un loop de ``b'', ya que no importa lo que esté concatenado antes), encontes verificamos lo que podemos concatenar después según Myhill-Nerode, ya que dependiendo del $n$ puede variar el resultado, por ejemplo si tenemos (a partir del $n$-ésimo caracter):
+\begin{enumerate}
+\item{``aa'': Al concatenar al final de la palabra ``a'' se distingue convirtiéndose el segundo ``a'' en el nuevo $n$-ésimo y quedando finalmente en aceptación.}
+\item{``ab'': Por otro lado si concatenamos ``a'' en este caso el ``b'' pasaría a ser el $n$-ésimo quedando fuera de la aceptación.}
+\end{enumerate}
+Entonces nos damos cuenta que para cada caracter después del $n$-ésimo caracter se crean clases de equivalencia distintas diferenciándose en cual es la última posición de ``a'' y pudiéndo volver a éstas según corresponda, por lo que es necesario crear dos estados nuevos por cada caracter de $n$, por lo que finalmente la cantidad de estados será por lo menos $2^n$. Cabe resaltar que la mitad de $2^n$ serán de aceptación al estar en el último nivel y que en uno de ellos se encontrará un loop de ``a'', ya que si se sigue un camino de sólo ``a'' da lo mismo las que se agreguen, el $n$-ésimo seguirá siendo ``a''. \\
+
+
+A continuación se muestra un ejemplo para $n = 2$, para ayudar la visualización.
+
+\includegraphics[height=10cm]{tarea_4-b.png}
 
 
 \section{Pregunta 5}
@@ -309,14 +320,6 @@ Como se puede ver el AFND a continuación, antes del $n-$ésimo símbolo (contad
 \newpage
 \subsection{Parte (c)}
 
-El estado inicial (q0q1q2q3) del AFD es de aceptación, lo que significa que acepta la palabra vacía. Como sabemos que la expresión regular acepta “ab”, “aab” o “aba” tantas veces como se requiera, para llegar al segundo estado (q4q5q6) se requiere de una “a”, y como “a” no pertenece a la expresión regular, este no es un estado de aceptación. Luego, Si se ingresa una “b” se llega a una palabra aceptada por la expresión, por lo cual es estado de aceptación (q0q1q2q3q7q9), si en su defecto se elige “a”, se llega a un estado de no aceptación (q8), ya que “aa” no pertenece a la expresión. \\
 
-Siguiendo ahora desde el estado q0q1q2q3q7q9 con “a” se llega al siguiente estado (q0q1q2q3q4q5q6q11) donde sí hay aceptación dado que se formaría “aba”, la cual pertenece a la expresión, desde este estado si se elige “b” se vuelve al nodo q0q1q2q3q4q7q9, generando un ciclo, porque se repite la expresión “ab” dos veces, siendo esto aceptado. Si por el contrario se opta por “a” se llega al estado q4q5q6q8 que no es de aceptación dado que “abba” no pertenece a la expresión regular. \\
-
-Desde q8 se puede llegar a q0q1q2q3q10 con “b”, formando la palabra “aab” que pertenece a la expresión, por esto es que es estado de aceptación. \\
-
-El estado q4q5q6q8 no es de aceptación, tal como se mencionó anteriormente, y eligiendo “a” se va al estado q8 que es el estado de basura,  eligiendo en cambio “b” se llega al estado q0q1q2q3q7q9q10 que es de aceptación ya que al llegar a él se forma la palabra “abaab” que es la concatenación de “ab” y “aab”, lo cual es aceptado. Desde este se llega nuevamente al estado q0q1q2q3q4q5q6q11 mediante “a”, y es nuevamente estado de aceptación dado que la palabra al llegar sería “abaaba” que es “aba” dos veces, lo cual es aceptado. \\
-
-Estando todos los estado ya descritos, las demás posibles  interacciones y ciclos se deben sólo a que la expresión regular que finaliza con *, significando que se puede hacer el mismo proceso infinitas veces.
 
 \end{document}
