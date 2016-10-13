@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.11)  12 OCT 2016 22:21
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.11)  12 OCT 2016 22:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1117,24 +1117,18 @@ Underfull \hbox (badness 10000) in paragraph at lines 282--284
 File: tarea_3-e.png Graphic file (type png)
  <use tarea_3-e.png>
 Package pdftex.def Info: tarea_3-e.png used on input line 291.
-(pdftex.def)             Requested size: 306.96745pt x 142.26378pt.
-
-<tarea_4-a.png, id=43, 717.882pt x 248.6088pt>
-File: tarea_4-a.png Graphic file (type png)
- <use tarea_4-a.png>
-Package pdftex.def Info: tarea_4-a.png used on input line 300.
-(pdftex.def)             Requested size: 410.81818pt x 142.26378pt.
+(pdftex.def)             Requested size: 429.75444pt x 199.16928pt.
 File: Escudo.png Graphic file (type png)
 
 <use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 301.
+Package pdftex.def Info: Escudo.png used on input line 299.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.301 \subsection
-                 {Parte (b)}
+l.299 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1148,13 +1142,19 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.301 \subsection
-                 {Parte (b)}
+l.299 
+      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 [7 <./tarea_3-e.png (PNG copy)>]
+<tarea_4-a.png, id=47, 717.882pt x 248.6088pt>
+File: tarea_4-a.png Graphic file (type png)
+ <use tarea_4-a.png>
+Package pdftex.def Info: tarea_4-a.png used on input line 300.
+(pdftex.def)             Requested size: 410.81818pt x 142.26378pt.
+
 Underfull \hbox (badness 10000) in paragraph at lines 307--308
 
  []
@@ -1327,7 +1327,7 @@ fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/
 type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/symbols/msam10.pfb>
 Output written on JorgeContreras-201573547-6_JuanPJorquera-201573533-6.pdf (11 
-pages, 866480 bytes).
+pages, 866493 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream
