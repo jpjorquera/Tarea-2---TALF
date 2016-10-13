@@ -1256,22 +1256,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 307--308
 
  []
 
-<tarea_4-b.png, id=48, 558.085pt x 378.41376pt>
-File: tarea_4-b.png Graphic file (type png)
- <use tarea_4-b.png>
-Package pdftex.def Info: tarea_4-b.png used on input line 311.
-(pdftex.def)             Requested size: 356.67928pt x 241.84842pt.
 File: Escudo.png Graphic file (type png)
-
 <use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 312.
+Package pdftex.def Info: Escudo.png used on input line 308.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.312 \end{center}
-                  
+l.308 \newpage
+              
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1285,23 +1279,28 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.312 \end{center}
-                  
+l.308 \newpage
+              
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[8 <./tarea_4-a.png>]
+[8 <./tarea_4-a.png>] <tarea_4-b.png, id=52, 558.085pt x 378.41376pt>
+File: tarea_4-b.png Graphic file (type png)
+
+<use tarea_4-b.png>
+Package pdftex.def Info: tarea_4-b.png used on input line 311.
+(pdftex.def)             Requested size: 377.66191pt x 256.0748pt.
 File: Escudo.png Graphic file (type png)
  <use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 335.
+Package pdftex.def Info: Escudo.png used on input line 331.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.335 	\item T
-              omar un estado que tenga más de un camino entrante. Si hay, s...
+l.331 
+      
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -1315,9 +1314,8 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.335 	\item T
-              omar un estado que tenga más de un camino entrante. Si hay, s...
-
+l.331 
+      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1334,21 +1332,15 @@ File: tarea_5-c2.png Graphic file (type png)
 <use tarea_5-c2.png>
 Package pdftex.def Info: tarea_5-c2.png used on input line 353.
 (pdftex.def)             Requested size: 263.67102pt x 142.26378pt.
- <tarea_5-c3.png, id=58, 558.085pt x 301.125pt>
-File: tarea_5-c3.png Graphic file (type png)
-
-<use tarea_5-c3.png>
-Package pdftex.def Info: tarea_5-c3.png used on input line 358.
-(pdftex.def)             Requested size: 316.40863pt x 170.71652pt.
 File: Escudo.png Graphic file (type png)
  <use Escudo.png>
-Package pdftex.def Info: Escudo.png used on input line 359.
+Package pdftex.def Info: Escudo.png used on input line 354.
 (pdftex.def)             Requested size: 61.98154pt x 45.52458pt.
 
 ! Undefined control sequence.
 <recently read> \lab 
                      
-l.359 \end{center}
+l.354 \end{center}
                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -1363,13 +1355,18 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.359 \end{center}
+l.354 \end{center}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[10 <./tarea_5-c.png (PNG copy)> <./tarea_5-c2.png (PNG copy)>]
+[10 <./tarea_5-c.png (PNG copy)>]
+<tarea_5-c3.png, id=61, 558.085pt x 301.125pt>
+File: tarea_5-c3.png Graphic file (type png)
+ <use tarea_5-c3.png>
+Package pdftex.def Info: tarea_5-c3.png used on input line 358.
+(pdftex.def)             Requested size: 316.40863pt x 170.71652pt.
 File: Escudo.png Graphic file (type png)
 
 <use Escudo.png>
@@ -1400,7 +1397,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[11 <./tarea_5-c3.png (PNG copy)>]
+[11 <./tarea_5-c2.png (PNG copy)> <./tarea_5-c3.png (PNG copy)>]
 (./JorgeContreras-201573547-6_JuanPJorquera-201573533-6.aux
 LaTeX Info: Redefining \. on input line 7.
 LaTeX Info: Redefining \% on input line 7.
@@ -1422,7 +1419,7 @@ local/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/l
 ocal/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/loc
 al/texlive/2016/texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb>
 Output written on JorgeContreras-201573547-6_JuanPJorquera-201573533-6.pdf (11 
-pages, 853343 bytes).
+pages, 853371 bytes).
 PDF statistics:
  92 PDF objects out of 1000 (max. 8388607)
  51 compressed objects within 1 object stream

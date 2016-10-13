@@ -305,10 +305,10 @@ En primer lugar damos más importancia para cada estado después de la ``a'' req
 \item{``ab'': Por otro lado si concatenamos ``a'' en este caso el ``b'' pasaría a ser el $n$-ésimo quedando fuera de la aceptación.}
 \end{itemize}
 Entonces nos damos cuenta que para cada caracter después del $n$-ésimo caracter se crean clases de equivalencia distintas diferenciándose en cual es la última posición de ``a'' y pudiéndo volver a éstas según corresponda, por lo que es necesario crear dos estados nuevos por cada caracter de $n$, por lo que finalmente la cantidad de estados será por lo menos $2^n$. Cabe resaltar que la mitad de $2^n$ serán de aceptación al estar en el último nivel y que en uno de ellos se encontrará un loop de ``a'', ya que si se sigue un camino de sólo ``a'' da lo mismo las que se agreguen, el $n$-ésimo seguirá siendo ``a''. \\
-
+\newpage
 A continuación se muestra un ejemplo para $n = 2$, para ayudar la visualización.
 \begin{center}
-	\includegraphics[height=8.5cm]{tarea_4-b.png}
+	\includegraphics[height=9cm]{tarea_4-b.png}
 \end{center}
 
 \section{Pregunta 5}
